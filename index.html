@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Library System</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#books">
+            <h1>Library System</h1>
+        </a>
+        <ul>
+            <a href="#books">
+                <li>Books</li>
+            </a>
+            <a href="#register">
+                <li>Register</li>
+            </a>
+            <a href="#">
+                <li>Contact Us</li>
+            </a>
+            <a href="#">
+                <li>Logout</li>
+            </a>
+            <li></li>
+        </ul>
+    </nav>
+    <section id="books">
+        <div class="books">
+            <h1>Books</h1>
+            <table>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a
+                        href="https://manybooks.net/book/127668/read#epubcfi(/6/2[item4]!/4/2/1:0)">
+                        <h3>The Mysterious Island</h3>
+                        </a>
+                        <br>
+                        <table>
+                            <tr>
+                                <td>Publication Date:1874</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:492</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:0812972120</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Jules Verne</td>
+                    <td>Action and Adventure</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>2</td>
+                        <td><a  href="https://manybooks.net/book/127668/read#epubcfi(/6/2[item4]!/4/2/1:0)">
+                            <h3>Acres of Diamonds</h3>
+                            </a>
+                            <br>
+                            <table>
+                                <tr>
+                                    <td>Publication Date:1913</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:105</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:1599869802</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Russell H. Conwell</td>
+                        <td>Biographies and History</td>
+                        <td>Not Available</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><a href="https://manybooks.net/book/127533/read#epubcfi(/6/2[coverpage-wrapper]!/4/1:0)">
+                            <h3>Adventures of Huckleberry Finn</h3>
+                            </a>
+                            <br>
+                            <table>
+                                <tr>
+                                    <td>Publication Date:1884</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:305</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:0142437174</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Mark Twain</td>
+                        <td>Action and Adventure</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="https://manybooks.net/book/123108/read#epubcfi(/6/2[item4]!/4/2/1:0)">
+                            <h3>The Adventures of Sherlock Holmes</h3>
+                            </a>
+                            <br>
+                            <table>
+                                <tr>
+                                    <td>Publication Date:1895</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:78</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:0451528557</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>H. G. Wells</td>
+                        <td>Science Fiction</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><a href="https://manybooks.net/book/127836/read#epubcfi(/6/2[item4]!/4/2/1:0)">
+                            <h3>he Time Machine</h3>
+                            </a>
+                            <br>
+                            <table>
+                                <tr>
+                                    <td>Publication Date: April 2013</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages: 258</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN: 9780762464036</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Jen Sincero</td>
+                        <td>Psychotherapy</td>
+                        <td>Not Available</td>
+                    </tr>
+                </table>
+    </section>
+    </div>
+    <section id="register">
+        <div class="register">
+            <h1>Register</h1>
+           <form action="#books">
+
+            
+                    <label for="first-name"><strong>First Name:</strong></label>
+                    <input type="text" name="first-name" id="first-name" required>
+                
+            
+                    <label for="last-name"><strong>last Name:</strong></label>
+                    <input type="text" name="last-name" id="last-name" required>
+                
+            
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" required>
+                
+            
+                    <label for="dob"><strong>Date Of Birth:</strong></label>
+                    <input type="date" name="dob" id="dob" required>
+                
+            
+                    <label for="age"><strong>Age:</strong></label>
+                    <input type="number" name="age" id="age" min="5" max="100" required>
+                
+            
+                    <label for="pswd"><strong>Password:</strong></label>
+                    <input type="password" placeholder="Enter Password" name="pswd" id="pswd" required>
+                
+            
+                    <label for="c-pswd"><strong>Confirm Password:</strong></label>
+                    <input type="password" placeholder="Confirm Password" name="pswd" id="pswd" required>
+                
+                    <input type="submit" value="Register"></input>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
